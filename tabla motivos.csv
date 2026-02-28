@@ -1,0 +1,35 @@
+﻿cdman;DSLAR;MOTIVO;RESPONSABLE;CDSTA;DESCOR;
+2;Documento sale al contado y debe ser crédito;DOCUMENTO ERRADO;Ventas;A;ER_DIG;ED
+8;No se imprimió legiblemente;ERROR IMPRESIÓN;Administración;A;ER_DOC;DE
+12;Se cargo producto distinto o no al de la factura de entrega;CARGA ERRADA O INCOMPLETA;Administración;A;ER_IMP;EI
+14;El producto esta con algún defecto;PRODUCTO DEFECTUOSO;Operaciones;A;ER_CAR;EC
+23;Se nos extravió Doc. Original o alguna copia;EXTRAVIO DOCUMENTO;Operaciones;A;PR_DEF;PD
+49;No acepta porque tiene fecha corta por vencer;POR VENCER;Operaciones;A;FA_UNI;FU
+25;Nos falto tiempo para poder cumplir con lo programado;FALTA TIEMPO EN RUTA;Operaciones;A;UN_MAL;UM
+22;La unidad sufre un desperfecto y no se puede continuar;UNIDAD MALOGRADA;Operaciones;A;EX_DOC;DX
+50;Falta de Personal de Reparto;EQUIPO DE REPARTO NO DISPONIBLE;Mercado;A;AS_ROB;AS
+51;Cliente Programado que esta lejos de la Zona de Reparto;ERROR DE UBICACIÓN DE CLIENTE;Operaciones;A;FA_TIE;FT
+52;No se cuenta con flota para entregar Demanda;UNIDAD NO DISPONIBLE;Operaciones;A;CAR_INC;CI
+53;Falta de Producto para el reparto del Dia;FALTA DE STOCK;Mercado;A;COM_MAY;CM
+24;No se pudo continuar por asalto o Intento;ASALTO, ROBO O INTENTO;Mercado;A;CLI_AUS;AU
+29;Compro a Mayorista;COMPRO A MAYORISTA;Mercado;A;CLI_CER;CE
+30;No se encuentra el Dueño solo está un encargado ;AUSENTE CLIENTE;Mercado;A;CLI_S/D;SD
+31;Negocio Cerrado;CERRADO;Ventas;A;CLI_S/E;SE
+32;Cliente manifiesta no tener Dinero;SIN DINERO;Ventas;A;CLI_NOP;NP
+1;Se registra por error un  código de producto no solicitado;ERROR DIGITACION;Ventas;A;ER_PPE;EP
+41;No cuenta con el envase completo;CLIENTE SIN ENVASES;Ventas;A;ER_COD;EA
+42;Cliente manifiesta no haber solicitado Producto;NO PEDIDO POR CLIENTE;Ventas;A;ER_PPE;EP
+47;No recibe porque no tiene espacio de almacenamiento;NO ESPACIO EN CLIENTE;Ventas;A;CLI_S/S;SS
+54;No Salió o esta Errónea el AT en los Documentos;ACCION TACTICA INCORRECTA O NO CARGADA;Operaciones;A;CLI_INV;IN
+98;REFACTURACIONES;REFACTURACIONES;Operaciones;A;PR_PVE;VE
+35;bloqueo de carreteras, pobladores toman ciudad, inundaciones, desastres;ERROR DE SISTEMA;-;;REFAC;RE
+21;bloqueo de carreteras, pobladores toman ciudad, inundaciones, desastres;DESASTRE NATURAL;;;;
+61;Dado de baja;ESTADO DE EMERGENCIA;;;;
+39;Pedido u OC duplicado;PEDIDO U OC DUPLICADO;;;;
+43;Dado de baja;ERROR PROGRAMACION PEDIDO;;;;
+45;Dado de baja;ERROR CODIGO ARTICULO;;;;
+46;Dado de baja;SIN ACCESO;;;;
+62;ESTADO DE EMERGENCIA;ESTADO DE EMERGENCIA;;;;
+65;ESTADO DE EMERGENCIA;ESTADO DE EMERGENCIA;;;;
+33;Dado de baja;ERROR PROGRAMACION PEDIDO;;;;
+34;Dado de baja;ERROR PROGRAMACION PEDIDO;;;;
